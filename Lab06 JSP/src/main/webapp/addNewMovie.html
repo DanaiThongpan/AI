@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>กรอกข้อมูล</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>ใส่ข้อมูล</h1>    
+        <form action="AddNewMovies">
+            ชื่อเรื่อง: <input type="text" name="movieName" ><br/>
+            ประเภทหนังที่ชอบ: <select name="movieType" id="movieType">
+                <option value="...">...</option>
+                <option value="Action movie">Action movie</option>
+                <option value="Adventure movie">Adventure movie</option>
+                <option value="War movie">War movie</option>
+                <option value="Drama movie">Drama movie</option>
+                <option value="Family movie">Family movie</option>
+            </select><br/>
+            ช่วงเวลาที่ชอบดู:
+            <input type="checkbox"  name="movieTime" value="ยามว่าง">ยามว่าง
+            <input type="checkbox"  name="movieTime" value="ตอนทำการบ้าน">ตอนทำการบ้าน
+            <input type="checkbox"  name="movieTime" value="ก่อนนอน">ก่อนนอน<br/>
+            ระดับความชอบ:
+            <input type="radio"  name="movie1" value="ชอบมาก">ชอบมาก
+            <input type="radio"  name="movie1" value="ชอบ">ชอบ
+            <input type="radio"  name="movie1" value="ไม่ชอบ">ไม่ชอบ<br/>
+            ราคาตั๋วหนัง:
+            <input type="text" name="moviePrice" ><br/>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
